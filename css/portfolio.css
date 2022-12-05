@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lora:wght@400;500;600&family=Oleo+Script&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=Lora:wght@400;500;600&family=Michroma&family=Oleo+Script&family=Poppins:wght@500;600&family=Roboto:wght@400;500&family=Teko:wght@300;600&display=swap');
 :root {
   --header-height: 3.5rem;
 
@@ -9,8 +9,8 @@
   --first-color3:hsl(200, 100%, 88%);
   --first-color-2:hsl(200, 100%, 88%);
   --first-color-1:hsl(202, 100%, 43%,.5);
-  --logo: #f678fb;
-  --logo-hover: #b849fc;
+  --logo: hsl(202, 100%, 70%);
+  --logo-hover: hsl(202, 100%, 51%);
   --title-color: hsl(219, 15%, 95%);
   --text-color: hsl(219, 8%, 75%);
   --text-color-light: hsl(219, 4%, 55%);
@@ -192,9 +192,9 @@ body.active .qualification__img{
 }
 .nav__logo {
   color: var(--logo);
-  font-family: "Lobster", cursive;
-  font-size: 1.1rem;
-  font-weight: 100;
+  font-family: 'Lobster', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
  :is(.nav__toggle,.change-theme,.nav__close){
