@@ -71,6 +71,7 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
   transition: background .4s;
+  --logo: url(../images/SHAFEE-LOGO.png) no-repeat;
 }
 
 h1,
@@ -112,7 +113,7 @@ body.active {
   --body-color: hsl(219, 100%, 99%);
   --container-color: #fff;
   --logo-hover: #b849fc; 
-    --logo: hsl(270, 80%,70%);
+    --logo: url(../images/SHAFEE-LOGO1.png) no-repeat;
   --first-color-alt: hsl(270, 80%, 50%);
   --first-color-2: hsl(270, 80%, 50%);
   --first-color-1: hsl(270, 55%, 53%,.4);
@@ -191,10 +192,13 @@ body.active .qualification__img{
   border-radius: 3rem;
 }
 .nav__logo {
-  color: var(--logo);
+  background: var(--logo);
   font-family: 'Lobster', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
+  background-size: 100px;
+  height: 90px;
+  margin-top: 55px;
 }
 
  :is(.nav__toggle,.change-theme,.nav__close){

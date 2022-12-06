@@ -29,6 +29,7 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 // ================= DARK LIGH=================================
 const themeButton = document.getElementById("theme-button");
+const logo = document.getElementById("logo");
 // const lightTheme = "light-theme";
 // const iconTheme = "ri-sun-line";
 
@@ -64,6 +65,15 @@ themeButton.onclick = () => {
     document.body.classList.remove("active");
   }
 };
+// themeButton.onclick = () => {
+//   if (themeButton.classList.contains("../images/SHAFEE-LOGO.png")) {
+//     themeButton.classList.replace("../images/SHAFEE-LOGO.png", "../images/SHAFEE-LOGO1.png");
+//     document.body.classList.add("active");
+//   } else {
+//     themeButton.classList.replace("../images/SHAFEE-LOGO1.png", "../images/SHAFEE-LOGO.png");
+//     document.body.classList.remove("active");
+//   }
+// };
 // ==========Swiper projects============
 let swiperProjects = new Swiper(".projects__container",{
 loop:true,
