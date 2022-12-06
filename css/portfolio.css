@@ -536,6 +536,10 @@ body.active .qualification__img{
   font-weight: var(--font-semi-bold);
   margin-bottom: 1.5rem;
 }
+.services__description{
+  font-size: .85rem;
+  
+}
 .services__border {
   width: 248px;
   height: 342px;
@@ -907,6 +911,7 @@ column-gap: 2.5rem;
   justify-content: center;
   column-gap: 10rem;
  }
+
  .projects__container{
   width: 500px;
  }
@@ -989,7 +994,12 @@ display: none;
    body.active .bg-header{
     box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
    }
+   .services__description{
+    font-size: .92rem;
+    
+  }
 } 
+
 @media screen and (min-width:1048px){
   .container{
     margin-inline: auto;
